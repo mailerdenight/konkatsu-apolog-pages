@@ -1,12 +1,12 @@
 :root {
   color-scheme: light;
-  --accent: #ef5f86;
-  --accent-dark: #4f1f2f;
-  --bg: #fff1f5;
+  --accent: #4b5563;
+  --accent-dark: #1f2937;
+  --bg: #f3f4f6;
   --panel: #ffffff;
-  --text: #181316;
-  --muted: #6f666a;
-  --line: #ffd0dc;
+  --text: #111827;
+  --muted: #6b7280;
+  --line: #d1d5db;
 }
 
 * {
@@ -16,7 +16,7 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif;
-  background: linear-gradient(180deg, #fff 0%, var(--bg) 42%, #fff7fa 100%);
+  background: linear-gradient(180deg, #fff 0%, var(--bg) 42%, #f9fafb 100%);
   color: var(--text);
   line-height: 1.8;
 }
@@ -68,7 +68,7 @@ h1 {
   border: 1px solid var(--line);
   border-radius: 22px;
   background: var(--panel);
-  box-shadow: 0 18px 40px rgba(239, 95, 134, 0.08);
+  box-shadow: 0 18px 40px rgba(17, 24, 39, 0.07);
 }
 
 h2 {
@@ -96,7 +96,7 @@ ul {
   display: inline-block;
   padding: 10px 16px;
   border-radius: 999px;
-  background: #ffe3eb;
+  background: #eef0f3;
 }
 
 .features {
@@ -109,7 +109,7 @@ ul {
 .features > div {
   padding: 18px;
   border-radius: 18px;
-  background: #fff5f8;
+  background: #f8fafc;
 }
 
 .button {
